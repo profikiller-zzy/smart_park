@@ -1,0 +1,1 @@
+hz update -idl idl/smart_park.thrift
