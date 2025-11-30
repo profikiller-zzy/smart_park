@@ -1,1 +1,1 @@
-namespace java idl
+namespace go smart_park

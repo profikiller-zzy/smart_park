@@ -2,7 +2,10 @@ module smart_park
 
 go 1.24
 
-require github.com/cloudwego/hertz v0.10.3
+require (
+	github.com/apache/thrift v0.22.0
+	github.com/cloudwego/hertz v0.10.3
+)
 
 require (
 	github.com/bytedance/gopkg v0.1.1 // indirect
@@ -23,3 +26,5 @@ require (
 	golang.org/x/sys v0.24.0 // indirect
 	google.golang.org/protobuf v1.34.1 // indirect
 )
+
+replace github.com/apache/thrift => github.com/apache/thrift v0.13.0
